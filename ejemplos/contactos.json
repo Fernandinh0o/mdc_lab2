@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "María López",
+    "telefono": "5555-0001",
+    "correo": "contacto1@example.com",
+    "ciudad": "Quetzaltenango"
+  },
+  {
+    "id": 2,
+    "nombre": "José Pérez",
+    "telefono": "5555-0002",
+    "correo": "contacto2@example.com",
+    "ciudad": "Guatemala"
+  },
+  {
+    "id": 3,
+    "nombre": "Ana García",
+    "telefono": "5555-0003",
+    "correo": "contacto3@example.com",
+    "ciudad": "Antigua Guatemala"
+  }
+]
