@@ -1,6 +1,6 @@
 # Laboratorio 2: Agenda de contactos con acceso aleatorio
 
-Aplicación de escritorio Python/Tkinter. Incluye índice JSON, SHA-256, exportación JSON/PDF, ZIP y metadatos. Los contactos de ejemplo son ficticios.
+Aplicación de escritorio Python/Tkinter. Todo el código de la aplicación, incluida la generación de ejemplos, está en `main.py`; no necesitas otros módulos propios. La carpeta `tests/` solo contiene pruebas de desarrollo. Incluye índice JSON, SHA-256, exportación JSON/PDF, ZIP y metadatos. Los contactos de ejemplo son ficticios.
 
 ## Ejecutar en Windows con Visual Studio
 
@@ -49,7 +49,7 @@ El hash verifica el DAT, no autentica al autor ni protege frente a alguien que m
 
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
-.\.venv\Scripts\python.exe generar_ejemplos.py
+.\.venv\Scripts\python.exe main.py --generar-ejemplos
 ```
 
 `ejemplos/` contiene DAT, índice, SHA-256, JSON exportado, reporte PDF y ZIP. El generador es repetible y no duplica IDs. `docs/informe.pdf` explica el diseño e incluye capturas reales de la interfaz y de una alteración detectada, tomadas en una pantalla virtual Linux. La apariencia en Windows puede variar.

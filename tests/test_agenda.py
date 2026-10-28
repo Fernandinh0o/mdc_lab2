@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import zipfile
-from agenda import Agenda, TAMANO, reporte_pdf
+from main import Agenda, TAMANO, reporte_pdf
 
 
 def contacto(i):
